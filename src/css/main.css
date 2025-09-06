@@ -1,1 +1,31 @@
 /* Your CSS here. */
+body{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+div.main
+{
+    max-width:50%;
+    height:90%;
+    padding-bottom: 20%;
+    padding: 5%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkgrey;
+
+}
+img {
+  max-width:150px;
+  max-height:150px;
+}
+h2.italics{
+    font-style: italic;
+    margin-bottom: 5%;
+}
+a{
+    color:blueviolet;
+    font-size: larger;
+}
